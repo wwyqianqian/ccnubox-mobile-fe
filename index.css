@@ -1,0 +1,25 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    width: 100%;
+}
+@media (min-width: 320px){
+.header{
+    height: 225px;
+    width: 100%;
+    padding-top: 23px;
+    background-image: url("http://i1.piimg.com/567571/7d9e9eec3f86f0a6.png");
+    background-repeat: repeat;
+    background-color: #7B79FF;
+    font-size: 0;
+}
+.content{
+    width: 400px;
+    height: 225px;
+
+    margin: 0 auto;
+    background-image: url("http://p1.bpimg.com/567571/d5107d6420071342.png");
+    background-repeat: no-repeat;
+}
+}
