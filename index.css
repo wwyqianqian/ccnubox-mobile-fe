@@ -3,23 +3,26 @@ html,body{
     padding:0px;
     height: 100%;
     width: 100%;
+    font-family: "Microsoft YaHei";
 }
-@media (min-width: 320px){
-.header{
-    height: 225px;
-    width: 100%;
-    padding-top: 23px;
-    background-image: url("http://i1.piimg.com/567571/7d9e9eec3f86f0a6.png");
-    background-repeat: repeat;
-    background-color: #7B79FF;
-    font-size: 0;
+.background-size{
+    background-size: 100%;
 }
-.content{
-    width: 400px;
-    height: 225px;
-
-    margin: 0 auto;
-    background-image: url("http://p1.bpimg.com/567571/d5107d6420071342.png");
+.background-repeat{
     background-repeat: no-repeat;
 }
+.header{
+    width: 100%;
+    height: 224px;
+    background-image: url("../images/header.png");
+    background-repeat: repeat;
+    background-color: #7B79FF;
+    margin: 0 auto;
+}
+.content{
+    width: 90%;
+    height: 100%;
+    background-image: url("../images/content.png");
+    background-position: bottom;
+    margin: 0 auto;
 }
