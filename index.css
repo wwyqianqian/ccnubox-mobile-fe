@@ -5,6 +5,22 @@ html,body{
     width: 100%;
     font-family: "Microsoft YaHei";
 }
+.color{
+    color: #333333;
+}
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.inline-block{
+    display: inline-block;
+}
+.font-size{
+    font-size: 0;
+}
+.text-align{
+    text-align: center;
+}
 .background-size{
     background-size: 100%;
 }
@@ -73,35 +89,81 @@ html,body{
     height: 92px;
     margin: 0 auto;
 }
-.box_android{
-    width: 50%;
-    height: 100%;
-text-align: center;
-    display: inline-block;
-}
-.box_ios{
+.box_android_ios{
     width: 50%;
     height: 100%;
     text-align: center;
     display: inline-block;
 }
-.android{
-
+.android_ios{
     width: 137px;
     height: 48px;
     vertical-align: top;
     display: inline-block;
     margin-top: 24px;
+}
+.android{
     background-image: url("../images/android.png");
-
-
 }
 .ios{
-
-  width: 137px;
-  height: 48px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 24px;
-  background-image: url("../images/ios.png");
+    background-image: url("../images/ios.png");
+}
+.function{
+    width: 100%;
+    height: 240px;
+    margin-top: 80px;
+}
+.function-top{
+    width: 100%;
+    font-size: 12px;
+}
+.function-middle{
+    width: 100%;
+    font-size: 8px;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+.function-bottom{
+    width: 100%;
+    height: 90px;
+}
+.function-bottom-img{
+    width: 33%;
+    height: 100%;
+}
+.bottom-picture{
+    width: 44px;
+    height: 44px;
+    margin-top: 20px;
+    background-position: center;
+    background-size: 100%;
+}
+.bottom-picture-left{
+    margin-bottom: 40px;
+    background-image: url("../images/bottom_picture_left.png");
+}
+.bottom-picture-middle{
+    margin-bottom: 40px;
+    background-image: url("../images/bottom_picture_middle.png");
+}
+.bottom-picture-right{
+    margin-bottom: 40px;
+    background-image: url("../images/bottom_picture_right.png");
+}
+.bottom-word{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-word-left{
+    font-size: 10px;
+}
+.bottom-word-right{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    line-height: 13px;
+    font-size: 2px;
+    margin-left: 2px;
+    vertical-align: baseline;
 }
