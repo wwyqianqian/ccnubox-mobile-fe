@@ -137,17 +137,15 @@ html,body{
     margin-top: 20px;
     background-position: center;
     background-size: 100%;
+    margin-bottom: 40px;
 }
 .bottom-picture-left{
-    margin-bottom: 40px;
     background-image: url("../images/bottom_picture_left.png");
 }
 .bottom-picture-middle{
-    margin-bottom: 40px;
     background-image: url("../images/bottom_picture_middle.png");
 }
 .bottom-picture-right{
-    margin-bottom: 40px;
     background-image: url("../images/bottom_picture_right.png");
 }
 .bottom-word{
@@ -166,4 +164,86 @@ html,body{
     font-size: 2px;
     margin-left: 2px;
     vertical-align: baseline;
+}
+.browse{
+    width: 100%;
+    height: 400px;
+    background-color: #FCFCFD;
+}
+.browse-top{
+    font-size: 12px;
+    padding-top: 30px;
+}
+.browse-middle{
+    font-size: 8px;
+    font-weight: lighter;
+    padding-top: 13px;
+}
+.browse-bottom{
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+    height: 260px;
+}
+.row{
+    width: 100%;
+    height: 62px;
+}
+.block{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+.blockpicture{
+    width: 60px;
+    height: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 15px;
+}
+.word{
+    font-size: 8px;
+    color: #666666;
+    font-weight: lighter;
+}
+.score{
+    background-image: url("../images/score.png");
+}
+.notice{
+    background-image: url("../images/notice.png");
+}
+.electrica{
+    background-image: url("../images/electrica.png");
+}
+.card{
+    background-image: url("../images/card.png");
+}
+.computation{
+    background-image: url("../images/computation.png");
+}
+.classroom{
+    background-image: url("../images/classroom.png");
+}
+.information{
+    background-image: url("../images/information.png");
+}
+.calendar{
+    background-image: url("../images/calendar.png");
+}
+.website{
+    background-image: url("../images/website.png");
+}
+.xueer{
+    background-image: url("../images/xueer.png");
+}
+.bad{
+    background-position: center;
+    width: 21px;
+    height: 21px;
+}
+.library{
+    background-image: url("../images/library.png");
+}
+.schedule{
+    background-image: url("../images/schedule.png");
 }
