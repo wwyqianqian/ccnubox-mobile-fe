@@ -43,7 +43,7 @@ html,body{
     background-position: bottom;
     font-size: 0px;
 }
-.content_left{
+.content-left{
     width: 40%;
     height: 178px;
     display: inline-block;
@@ -55,47 +55,47 @@ html,body{
     margin-top: 10px;
     margin-left: 20px;
 }
-.logo_picture{
+.logo-picture{
     width: 140px;
     height: 138px;
     background-image: url("../images/logo_picture.png");
     background-size: 80%;
 }
-.content_right{
+.content-right{
     width: 60%;
     height: 178px;
     display: inline-block;
     vertical-align: top;
 }
-.top_word{
+.top-word{
     color: white;
     font-size: 18px;
     font-weight: Negreta;
 }
-.top_word_top{
+.top-word-top{
     margin-top: 68px;
 }
-.top_word_bottom{
+.top-word-bottom{
     margin-top: 5px;
 }
-.bottom_word{
+.content-bottom-word{
     color: white;
     font-size: 7px;
     font-weight: lighter;
     margin-top: 5px;
 }
-.content_bottom{
+.content-bottom{
     width: 100%;
     height: 92px;
     margin: 0 auto;
 }
-.box_android_ios{
+.box-android-ios{
     width: 50%;
     height: 100%;
     text-align: center;
     display: inline-block;
 }
-.android_ios{
+.android-ios{
     width: 137px;
     height: 48px;
     vertical-align: top;
@@ -246,4 +246,43 @@ html,body{
 }
 .schedule{
     background-image: url("../images/schedule.png");
+}
+.footer{
+    width: 100%;
+    height: 40px;
+}
+.footer-background{
+    background-image: url("../images/footer-background.png");
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+.footer-left{
+    width: 65%;
+    height: 100%;
+}
+.flower{
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/flower.png");
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.footer-join{
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.footer-right{
+    height: 100%;
+}
+.join{
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+   color: #FF9135;
 }
