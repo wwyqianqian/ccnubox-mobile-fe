@@ -1,7 +1,6 @@
 html,body{
     margin:0px;
     padding:0px;
-    height: 100%;
     width: 100%;
     font-family: "Microsoft YaHei";
 }
@@ -110,8 +109,8 @@ html,body{
 }
 .function{
     width: 100%;
-    height: 240px;
-    margin-top: 80px;
+    height: 200px;
+    margin-top: 64px;
 }
 .function-top{
     width: 100%;
@@ -122,10 +121,10 @@ html,body{
     font-size: 8px;
     font-weight: lighter;
     margin-top: 13px;
+    margin-bottom: 20px;
 }
 .function-bottom{
     width: 100%;
-    height: 90px;
 }
 .function-bottom-img{
     width: 33%;
@@ -134,10 +133,8 @@ html,body{
 .bottom-picture{
     width: 44px;
     height: 44px;
-    margin-top: 20px;
     background-position: center;
     background-size: 100%;
-    margin-bottom: 40px;
 }
 .bottom-picture-left{
     background-image: url("../images/bottom_picture_left.png");
@@ -152,6 +149,7 @@ html,body{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 20px;
 }
 .bottom-word-left{
     font-size: 10px;
@@ -184,11 +182,10 @@ html,body{
     width: 80%;
     margin-top: 20px;
     background-color: white;
-    height: 260px;
+    padding-top: 15px;
 }
 .row{
     width: 100%;
-    height: 62px;
 }
 .block{
     width: 33%;
@@ -200,12 +197,12 @@ html,body{
     height: 30px;
     background-position: center;
     background-size: 100%;
-    margin-top: 15px;
 }
 .word{
     font-size: 8px;
     color: #666666;
     font-weight: lighter;
+    margin-bottom: 15px;
 }
 .score{
     background-image: url("../images/score.png");
@@ -255,7 +252,6 @@ html,body{
 .footer-background{
     background-image: url("../images/footer-background.png");
     background-repeat: repeat;
-    height: 100%;
     width: 100%;
 }
 .footer-left{
