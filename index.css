@@ -42,37 +42,50 @@ html,body{
     background-position: bottom;
     font-size: 0px;
 }
-.content-left{
-    width: 40%;
-    height: 178px;
-    display: inline-block;
+.content-top{
+    width: 100%;
+    height: 15px;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 .logo{
     width: 60px;
     height: 15px;
     background-image: url("../images/logo.png");
-    margin-top: 10px;
     margin-left: 20px;
+}
+.content-middle{
+   width: 100%;
+   height: 163px;
+}
+.content-middle-left{
+   width: 40%;
+   height: 100%;
 }
 .logo-picture{
     width: 140px;
-    height: 138px;
+    height: 100%;
     background-image: url("../images/logo_picture.png");
     background-size: 80%;
+    background-position: center;
 }
-.content-right{
-    width: 60%;
-    height: 178px;
-    display: inline-block;
-    vertical-align: top;
+.content-middle-right{
+   width: 60%;
+   height: 100%;
+   vertical-align: top;
 }
 .top-word{
     color: white;
     font-size: 18px;
     font-weight: Negreta;
 }
-.top-word-top{
-    margin-top: 68px;
+.content-middle-right-box{
+   width: 100%;
+   height: 100%;
+   /*margin-top: auto;
+   margin-bottom: auto;*/
+   padding-top: 45px;
+   box-sizing: border-box;
 }
 .top-word-bottom{
     margin-top: 5px;
