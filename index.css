@@ -259,21 +259,20 @@ html,body{
     width: 100%;
 }
 .footer-left{
-    width: 65%;
+    width: 75%;
     height: 100%;
+    line-height: 40px;
 }
 .flower{
     width: 14px;
     height: 14px;
     background-image: url("../images/flower.png");
-    vertical-align: top;
     margin-left: 20%;
-    margin-top: 10px;
 }
 .footer-join{
     font-size: 10px;
     color: white;
-    margin-top: 10px;
+
 }
 .footer-right{
     height: 100%;
@@ -281,7 +280,7 @@ html,body{
 .join{
     font-size: 10px;
     color: white;
-    margin-top: 10px;
+    line-height: 40px;
     text-decoration: none;
 }
 a:hover{
