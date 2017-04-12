@@ -261,18 +261,18 @@ html,body{
 .footer-left{
     width: 75%;
     height: 100%;
-    line-height: 40px;
 }
 .flower{
     width: 14px;
     height: 14px;
     background-image: url("../images/flower.png");
     margin-left: 20%;
+    vertical-align: middle;
 }
 .footer-join{
     font-size: 10px;
     color: white;
-
+    vertical-align: middle;
 }
 .footer-right{
     height: 100%;
@@ -280,8 +280,9 @@ html,body{
 .join{
     font-size: 10px;
     color: white;
-    line-height: 40px;
+    vertical-align: middle;
     text-decoration: none;
+    line-height: 40px;
 }
 a:hover{
    color: #FF9135;
