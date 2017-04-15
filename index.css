@@ -61,6 +61,7 @@ html,body{
 .content-middle-left{
    width: 40%;
    height: 100%;
+   vertical-align: middle;
 }
 .logo-picture{
     width: 140px;
@@ -71,8 +72,7 @@ html,body{
 }
 .content-middle-right{
    width: 60%;
-   height: 100%;
-   vertical-align: top;
+   vertical-align: middle;
 }
 .top-word{
     color: white;
